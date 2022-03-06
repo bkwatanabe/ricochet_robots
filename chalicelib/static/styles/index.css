@@ -1,0 +1,57 @@
+body {
+    touch-action: none;
+    overflow: hidden;
+}
+
+.board-container {
+    width: min(98vw, 80vh);
+}
+
+td {
+    border: 0.05em solid gray;
+}
+
+table {
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+svg {
+    width: 100%;
+}
+
+.left {
+    border-left: solid black 4px;
+}
+
+.right {
+    border-right: solid black 4px;
+}
+
+.top {
+    border-top: solid black 4px;
+}
+
+.bottom {
+    border-bottom: solid black 4px;
+}
+
+.blue {
+    background-color: #BFBFFF;
+}
+
+.red {
+    background-color: #FFCAC6;
+}
+
+.green {
+    background-color: #C8DFC5;
+}
+
+.gold {
+    background-color: #FFF4CD;
+}
+
+.black {
+    background-color: #BFBFBF;
+}
